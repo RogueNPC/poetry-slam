@@ -29,7 +29,7 @@ def get_interruption():
     #list of possible interruption phrases
     random_interruption = ['*cough* *cough*', '--> easter egg <--', '--Take a 10 min break--',
                             "--Don't forget to stand up and stretch!--", '*clears throat*',
-                            '--Drink Pepsi!', '--> click here for free iphone 11 <--']
+                            '--Drink Pepsi!--', '--> click here for free iphone 11 <--']
     #returns a random interruption phrase
     return choice(random_interruption)
 
