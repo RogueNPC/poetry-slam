@@ -8,7 +8,7 @@ def get_file_lines(filename):
     return lines
 
 #assigns poem.txt into variable poem using get_file_lines function
-poem = get_file_lines("cs1.0/poetry-slam/poem.txt")
+poem = get_file_lines("poem.txt")
 
 #function prints out poem normally
 def lines_printed_normal(lines_list):
